@@ -13,6 +13,6 @@ CREATE EXTENSION natord_pg;
 ```
 ~~> - Natural greater than
 <~~ - Natural less than
-~=> - Natural greater equal
+~>= - Natural greater equal
 <=~ - Natural less equal
 ```
