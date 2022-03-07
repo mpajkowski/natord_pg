@@ -1,5 +1,5 @@
 comment = 'natord_pg:  Created by mpajkowski'
-default_version = '1.0'
+default_version = '@CARGO_VERSION@'
 module_pathname = '$libdir/natord_pg'
 relocatable = false
 superuser = false
