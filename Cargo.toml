@@ -7,7 +7,7 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [features]
-default = ["pg13"]
+default = ["pg14"]
 pg10 = ["pgx/pg10", "pgx-tests/pg10" ]
 pg11 = ["pgx/pg11", "pgx-tests/pg11" ]
 pg12 = ["pgx/pg12", "pgx-tests/pg12" ]
@@ -17,10 +17,10 @@ pg_test = []
 
 [dependencies]
 natord = "1.0.9"
-pgx = "0.4.0-beta.0"
+pgx = "0.5.2"
 
 [dev-dependencies]
-pgx-tests = "0.4.0-beta.0"
+pgx-tests = "0.5.2"
 
 [profile.dev]
 panic = "unwind"
