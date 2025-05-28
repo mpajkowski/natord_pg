@@ -1,8 +1,8 @@
-use pgrx::*;
-
 use std::cmp::Ordering;
 
-pg_module_magic!();
+use pgrx::prelude::*;
+
+::pgrx::pg_module_magic!();
 
 extension_sql_file!(
     "../sql/operators.sql",
